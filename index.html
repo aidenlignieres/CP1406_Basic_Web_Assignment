@@ -14,23 +14,14 @@
 
 		<!-- Site navigation menu -->
 		<div class="navbar">
-			<a href = "index.html"> Home page </a>
-			<a href = ""></a>
-			<a href = "town.html"> My town </a>
-			<a href ="links.html">Links</a>
+			<a href="weekly_specials.html"></a>
+			<a href="index.html"> Home </a>
+			<a id="menu"> Menu </a>
+			<a href="town.html"> About Us </a>
 		</div>
 
 		<!-- Main content -->
 		<div class="main">
-			<forum>
-				<label for="fname">First name:</label><br>
-				<input type="text" id="fname" name="fname"><br>
-				<label for="lname">Last name:</label><br>
-				<input type="text" id="lname" name="lname">
-				<label for="email_address">Email Address:</label><br>
-				<input type="email" id="email_address" name="email_address">
-				<input type="submit" value="Submit">
-			</forum>
 			<div class="content">
 				<h1>
 					About Us
@@ -64,28 +55,39 @@
 				</p>
 			</div>
 
+			
 			<h1>Menu</h1>
-			<div class="row">
-				<div class="column">
-					<img src="img_snow.jpg" alt="Snow" style="width:100%">
+			<div id="menu">
+				<div class="row">
+					<div class="column">
+						<img src="img_snow.jpg" alt="Snow" style="width:100%">
+					</div>
+					<div class="column">
+						<img src="img_forest.jpg" alt="Forest" style="width:100%">
+					</div>
+					<div class="column">
+						<img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+					</div>
 				</div>
-				<div class="column">
-					<img src="img_forest.jpg" alt="Forest" style="width:100%">
+				<div class="row">
+					<div class="column">
+						<img src="img_snow.jpg" alt="Snow" style="width:100%">
+					</div>
+					<div class="column">
+						<img src="img_forest.jpg" alt="Forest" style="width:100%">
+					</div>
+					<div class="column">
+						<img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+					</div>
 				</div>
-				<div class="column">
-					<img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-				</div>
-			</div>
-			<div class="row">
-				<div class="column">
-					<img src="img_snow.jpg" alt="Snow" style="width:100%">
-				</div>
-				<div class="column">
-					<img src="img_forest.jpg" alt="Forest" style="width:100%">
-				</div>
-				<div class="column">
-					<img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-				</div>
+				<h2>Would like to recieve weekly specials please enter you name and email address below.</h2>
+				<forum>
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname"><br>
+					<label for="email_address">Email Address:</label><br>
+					<input type="email" id="email_address" name="email_address">
+					<input type="submit" value="Submit">
+				</forum>
 			</div>
 
 		</div>
