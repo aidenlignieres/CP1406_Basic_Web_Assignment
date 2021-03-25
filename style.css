@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box
+}
+body{
+	margin: 0;
+	margin-top: 3em;
+}
+
+.main{
+	max-width: 1024px;
+	margin: auto;
+}
+
+p {
+	font: 14px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+}
+
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+footer{
+	bottom: 0px;
+	position: fixed;
+	background-color: gray;
+	border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+  
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+} /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_equal_width*/
