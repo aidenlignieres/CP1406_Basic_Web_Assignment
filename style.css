@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	margin-top: 3em;
+	background-color: #fff0d1;
 }
 
 .main{
@@ -37,6 +38,10 @@ p {
 .navbar a:hover {
 	background: #ddd;
 	color: black;
+}
+
+.content{
+
 }
 
 footer{
