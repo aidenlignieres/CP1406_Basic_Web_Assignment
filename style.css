@@ -1,10 +1,12 @@
 * {
 	box-sizing: border-box
 }
+
 body{
 	margin: 0;
 	margin-top: 3em;
 	background-color: #fff0d1;
+	
 }
 
 .main{
@@ -13,13 +15,14 @@ body{
 }
 
 p {
-	font: 14px;
+	font-size: 16px;
 }
 
 .navbar {
 	overflow: hidden;
 	background-color: #333;
 	position: fixed;
+
 	top: 0;
 	width: 100%;
 }
@@ -29,10 +32,10 @@ p {
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 12px;
+	padding: 12px 0;
 	text-decoration: none;
 	font-size: 17px;
-	width: 25%;
+	width: 50%;
 }
 
 .navbar a:hover {
@@ -40,13 +43,23 @@ p {
 	color: black;
 }
 
+.center {
+	max-width: 50%;
+	margin: auto;
+}
+
 img {
 	width: 100%
 }
 
+.edit{ 
+	margin-top: -0.25em;
+	width: calc(100vw - 9px);
+	
+} 
+
 footer{
 	bottom: 0px;
-	position: fixed;
 	background-color: gray;
 	border-radius: 15px 15px 0px 0px;
 	width: 100%;
@@ -58,12 +71,40 @@ footer{
 	width: 33.33%;
 	padding: 5px;
 }
-  
+
+footer .column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+
+}
+
+footer .column a{
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	font-size: 17px;
+	margin-top: 2rem;
+}
 /* Clearfix (clear floats) */
 .row::after {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+.contact p, address {
+	font-size: 12px;
+}
+
+.contact{
+	text-align: center;
+}
+
+.name{
+	font-size: 72px;
+	text-align: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -74,3 +115,10 @@ footer{
 		text-align: left;
 	}
 } /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_equal_width*/
+
+@media only screen and (min-width: 1024px) {
+	.edit{ 
+		margin-left: calc((1024px - 100vw)/2);
+		
+	} 
+}
