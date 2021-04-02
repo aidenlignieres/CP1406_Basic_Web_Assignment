@@ -54,9 +54,8 @@ img {
 
 .edit{ 
 	margin-top: -0.25em;
-	width: calc(100vw - 9px);
-	
-} 
+	width: calc(100vw - (100vw - 100%));
+}
 
 footer{
 	bottom: 0px;
@@ -84,9 +83,10 @@ footer .column a{
 	display: block;
 	color: #000000;
 	text-decoration: none;
-	font-size: 17px;
-	margin-top: 2rem;
+	font-size: 10px;
+	margin-top: 1.5rem;
 }
+
 /* Clearfix (clear floats) */
 .row::after {
 	content: "";
@@ -95,7 +95,7 @@ footer .column a{
 }
 
 .contact p, address {
-	font-size: 12px;
+	font-size: 8px;
 }
 
 .contact{
@@ -116,9 +116,9 @@ footer .column a{
 	}
 } /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_equal_width*/
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
 	.edit{ 
 		margin-left: calc((1024px - 100vw)/2);
 		
 	} 
-}
+} */
