@@ -57,6 +57,11 @@ img {
 	width: calc(100vw - (100vw - 100%));
 }
 
+.image{
+	width: 50%;
+	margin: auto;
+}
+
 footer{
 	bottom: 0px;
 	background-color: gray;
@@ -99,6 +104,10 @@ footer .column a{
 }
 
 .contact{
+	text-align: center;
+}
+
+.text_center{
 	text-align: center;
 }
 
