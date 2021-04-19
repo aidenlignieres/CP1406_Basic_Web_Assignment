@@ -1,17 +1,18 @@
 * {
-	box-sizing: border-box
+	box-sizing: border-box;
 }
-html{
+
+html {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
 	margin: 0;
 	margin-top: 3em;
 	background-color: #e6f7ff;
 }
 
-.main{
+.main {
 	max-width: 1024px;
 	margin: auto;
 }
@@ -20,7 +21,7 @@ p {
 	font-size: 16px;
 }
 
-h1{
+h1 {
 	font-family: Lucida Handwriting;
 }
 .navbar {
@@ -48,24 +49,24 @@ h1{
 
 .center {
 	max-width: 50%;
-	margin: auto;
+	margin: center;
 }
 
 .menu {
-	width: 100%
+	width: 100%;
 }
 
-.edit{ 
+.edit {
 	margin-top: -0.25em;
 	width: calc(100vw - (100vw - 100%));
 }
 
-.image{
+.image {
 	width: 50%;
-	margin: auto;
+	margin: center;
 }
 
-footer{
+footer {
 	bottom: 0px;
 	background-color: rgb(94, 171, 206);
 	border-radius: 15px 15px 0px 0px;
@@ -85,7 +86,7 @@ footer .column {
 	padding: 5px;
 }
 
-footer .column a{
+footer .column a {
 	display: block;
 	color: #000000;
 	text-decoration: none;
@@ -100,25 +101,32 @@ footer .column a{
 	display: table;
 }
 
-.contact p, address {
+.contact p,
+address {
 	font-size: 8px;
 }
 
-address, .contact, .text_center, .name, .maintenance, footer .column, .navbar a {
+address,
+.contact,
+.text_center,
+.name,
+.maintenance,
+footer .column,
+.navbar a {
 	text-align: center;
 }
-.icon{
+.icon {
 	margin-top: -0.5rem;
 }
 
-.location{
+.location {
 	font-size: 16px;
 }
 
-.name{
+.name {
 	font-size: 72px;
 }
-.maintenance{
+.maintenance {
 	font-size: 36px;
 }
 
